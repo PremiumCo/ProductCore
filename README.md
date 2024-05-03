@@ -19,10 +19,11 @@ Please ensure that you follow the guidelines and best practices outlined in our 
 ### Contributing
 If you are authorized to contribute to this repository, please adhere to the following guidelines:
 
-- Fork the repository.
 - Make your changes in a feature branch.
 - Ensure your code follows our coding standards and practices.
 - Submit a pull request to the main branch for review.
 
 ### Contact
 For any inquiries or assistance regarding this repository, please contact Mason or Ownership.
+
+**please no commit unless mason says so.. and no take any code, jus ask mason!**
