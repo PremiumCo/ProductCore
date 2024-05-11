@@ -39,15 +39,15 @@ UserInputService.InputBegan:Connect(function(input)
 		player.PlayerGui.TVController.Enabled = true
 	end
 
---	if input.KeyCode == Enum.KeyCode.RightControl then
---		local player = game:GetService("Players").LocalPlayer
---		local playerrank = player:GetRankInGroup(configuration.permission["Group Lock"].GroupID)
---		if configuration.permission["Group Lock"].Enabled == true and player:IsInGroup(configuration.permission["Group Lock"].GroupID) and playerrank > configuration.permission["Group Lock"].MinRankID then
---			player.PlayerGui.TVController.Enabled = true
---		else
---			print(configuration.permission["User Lock"].AllowedUsers)
---		end
---	end
+	--	if input.KeyCode == Enum.KeyCode.RightControl then
+	--		local player = game:GetService("Players").LocalPlayer
+	--		local playerrank = player:GetRankInGroup(configuration.permission["Group Lock"].GroupID)
+	--		if configuration.permission["Group Lock"].Enabled == true and player:IsInGroup(configuration.permission["Group Lock"].GroupID) and playerrank > configuration.permission["Group Lock"].MinRankID then
+	--			player.PlayerGui.TVController.Enabled = true
+	--		else
+	--			print(configuration.permission["User Lock"].AllowedUsers)
+	--		end
+	--	end
 end)
 
 edit.MouseButton1Click:Connect(function()

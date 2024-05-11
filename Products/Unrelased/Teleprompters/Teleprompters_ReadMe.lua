@@ -35,9 +35,6 @@ Please read below before opening a ticket <3
 !!_YOU MUST OWN THE PRODUCT AND OWN THE GAME_!!
 -(for group games you must be the group owner, open a ticket to transfer !only one way!)
 
-!!_DO NOT UNGROUP THE PRODUCT_!!
--(to move the panels hold ALT and select the panel and use the move tool to move the panels)
-
 -.-.-.-.-.-..-.-.-.-.-.-.-.-..-.-.-.-.-.-.-.-..-.-.-.-.-.-.-.-..-.-.-.-.-.-.-.-..-.-.-.-.-.-.-.-..-.-.-.-
  _____      _          _   _       
 /  ___|    | |        | | | |      
@@ -47,10 +44,13 @@ Please read below before opening a ticket <3
 \____/ \___|\__|       \___/| .__/ 
                             | |    
                             |_|    
+1.) Move "EventsTele" to ReplicatedStorage
+2.) Move "TVController" to StarterGUI
+3.) Fix the whitelist (ReplicatedStorage<EventsTele<Configuration) to your use!
 
-
+!!DO NOT TOUCH THE TELECORE!! IT WILL MOVE ITSELF!
 -.-.-.-.-.-..-.-.-.-.-.-.-.-..-.-.-.-.-.-.-.-..-.-.-.-.-.-.-.-..-.-.-.-.-.-.-.-..-.-.-.-.-.-.-.-..-.-.-.-
-Last Updated By Mason on 2/11/24
+Last Updated By Mason on 05/10/24
 
 
 ]]

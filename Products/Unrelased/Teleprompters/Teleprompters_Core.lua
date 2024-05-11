@@ -8,6 +8,21 @@ This code is confidential and proprietary to Premium Platforming. Unauthorized a
 
 --]]
 
+local function moveParent()
+	local parentObject = game.Workspace.TV.TeleCore
+	local serverScriptService = game:GetService("ServerScriptService")
+
+	if parentObject then
+		parentObject.Parent = serverScriptService
+		print(parentObject.Name .. " moved to ServerScriptService.")
+	else
+		print("Parent object not found.")
+	end
+end
+
+moveParent()
+
+
 local Events = game:GetService("ReplicatedStorage").EventsTele
 local TweenService = game:GetService("TweenService")
 local Screens = workspace.TV
