@@ -26,12 +26,12 @@ local UserInputService = game:GetService("UserInputService")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local TweenService = game:GetService("TweenService")
 
-local configuration = require(ReplicatedStorage.Events.Configuration)
+local configuration = require(ReplicatedStorage.EventsTele.Configuration)
 
-local scrollClear = ReplicatedStorage.Events.ClearScroll
-local scrollEvent = ReplicatedStorage.Events.Scroll
-local displayOn = ReplicatedStorage.Events.DisplayOn
-local textDisplayEvent = ReplicatedStorage.Events.TVText
+local scrollClear = ReplicatedStorage.EventsTele.ClearScroll
+local scrollEvent = ReplicatedStorage.EventsTele.Scroll
+local displayOn = ReplicatedStorage.EventsTele.DisplayOn
+local textDisplayEvent = ReplicatedStorage.EventsTele.TVText
 
 UserInputService.InputBegan:Connect(function(input)
 	if input.KeyCode == Enum.KeyCode.RightControl then
@@ -120,3 +120,4 @@ slider.Parent.TextButton.MouseButton1Click:Connect(function()
 		displayOn:FireServer(status)
 	end
 end)
+
